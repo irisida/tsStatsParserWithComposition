@@ -1,0 +1,27 @@
+{
+  "name": "tsStatsParserWithComposition",
+  "version": "1.0.0",
+  "description": "A further implementation approach based on composition to the TS stats parser for the reporting side.",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irisida/tsStatsParserWithComposition.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irisida/tsStatsParserWithComposition/issues"
+  },
+  "homepage": "https://github.com/irisida/tsStatsParserWithComposition#readme",
+  "dependencies": {
+    "@types/node": "^14.14.22",
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.7"
+  }
+}
